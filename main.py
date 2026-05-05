@@ -14,7 +14,7 @@ except Exception as e:print(f'❌❌❌ Faced Error: {str(e)} ❌❌❌')
 def index():
     try:
         if request.method == 'GET':
-            index_path = r'utils\index.json'
+            index_path = 'utils/index.json'
             with open(index_path, 'r', encoding='utf-8') as f:
                 index_output = json.load(f)
             return jsonify(index_output)
