@@ -1,0 +1,6 @@
+flask
+ultralytics
+requests
+numpy
+pillow
+python-dotenv
